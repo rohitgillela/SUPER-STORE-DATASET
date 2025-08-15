@@ -1,85 +1,52 @@
-# SUPER-STORE-DATASET
-The Superstore Sales dataset is a simulated data collection from a fictional retail company selling office supplies across the United States. It contains detailed records of sales, customers, regions, profits, discounts, and more.
-This dataset is perfect for practicing:
- Data Analysis in Excel
- Business Dashboards in Power BI
- Data-driven decision making
- Dataset Summary
-# File Format: CSV / Excel (.xlsx)
-Rows: ~10,000+
-Size: ~1MB
-Source: Public (used in Tableau, Power BI, Kaggle, and academic projects)
+# Superstore Dataset Dashboard - Power BI
 
-# Column Descriptions
-Column Name	Description
-Order ID	Unique order identifier
-Order Date	Date the order was placed
-Ship Date	Date the order was shipped
-Ship Mode	Shipping method
-Customer ID	Unique customer identifier
-Customer Name	Name of the customer
-Segment	Market segment (Consumer, Corporate, Home Office)
-Country	Country (mostly United States)
-City	Customer city
-State	Customer state
-Postal Code	ZIP code
-Region	Geographic region
-Product ID	Unique product ID
-Category	Product category (e.g., Furniture)
-Sub-Category	Product sub-category (e.g., Chairs)
-Product Name	Full product name
-Sales	Total sales value
-Quantity	Number of units sold
-Discount	Discount applied
-Profit	Profit earned
+This project visualizes sales, profits, and order quantities using the Superstore Dataset in Power BI. It provides business insights across different regions, segments, categories, and time periods.
 
-# Excel Analysis Ideas
-You can use Excel to perform EDA and reporting with formulas, pivot tables, and charts:
-Key Excel Features to Use:
-Feature	Use Case
-PivotTables	Summarize sales by Region, Category, or Customer
-Conditional Formatting	Highlight negative profits
-Slicers	Filter dashboards by Region or Segment
-VLOOKUP/XLOOKUP	Fetch data across multiple sheets
-Charts	Create column charts for Sales vs. Profit
-IF statements	Calculate profitability logic (e.g., =IF(Profit<0,"Loss","Profit"))
-Named Ranges	For cleaner formulas in dashboards
-Data Validation	Create dropdowns for user inputs
+# Dashboard Overview
 
-Example Pivot Table:
-Rows: Region
-Values: Sales, Profit
-Filters: Category
+The Power BI report includes the following key visual components:
+| Section                                                  | Description                                                          |
+| -------------------------------------------------------- | -------------------------------------------------------------------- |
+| **Total Quantity (38K)**                                 | Aggregated count of items sold.                                      |
+| **Total Profits (286.40K)**                              | Total profit earned from sales.                                      |
+| **Total Sales (2.3M)**                                   | Total revenue generated.                                             |
+| **Sales by Region (Pie Chart)**                          | Distribution of sales across Central, East, South, and West regions. |
+| **Sales by Segment (Donut Chart)**                       | Breakdown by customer segments (Consumer, Corporate, Home Office).   |
+| **State of Sales (Map)**                                 | Geographic sales visualization across the United States.             |
+| **Sales by Sub-Category & Region (Clustered Bar Chart)** | Sales by product sub-categories segmented by region.                 |
+| **Sales by Year (Bar Chart)**                            | Annual sales trend (2014–2017).                                      |
 
-# Power BI Dashboard Ideas
-Power BI is great for building interactive dashboards from this dataset. Here are some ideas:
- Load Steps:
-Import the dataset via Get Data > Excel/CSV
-Clean columns with Power Query
-Create calculated columns or measures using DAX
+# Dataset Description
 
-# Suggested Power BI Visuals:
-Visual	Purpose
-Bar Chart	Top 10 Products by Sales or Profit
-Map	Sales by State
-Line Chart	Monthly Sales Trends
-Treemap	Profit by Sub-Category
-Donut Chart	Sales Share by Segment
-Matrix Table	Sales & Profit by Region and Category
-Slicer	Filter by Region, Segment, Year
+The dataset used is the classic Superstore Dataset, commonly used for data visualization projects. It includes:
 
-# DAX Measures (Examples):
-DAX
-Copy
-Edit
-Total Sales = SUM(Superstore[Sales])
-Total Profit = SUM(Superstore[Profit])
+Order information (Order ID, Date, Segment, Region)
 
-# Licensing
-This dataset is free for educational and non-commercial use. Commonly used in Tableau, Power BI, Excel, and Kaggle communities.
+Customer demographics
 
-# Deliverables (on request)
-I can provide the following:
- Cleaned Excel version with Pivot Tables & Charts
- Power BI .pbix file with dashboard visuals
- Markdown / PDF version of this README
+Product details
+
+Sales, Profit, and Quantity metrics
+
+# 🛠️ Tools Used
+
+Data cleaning in excel
+
+Power BI Desktop
+
+DAX (Data Analysis Expressions)
+
+Data Transformation (Power Query Editor)
+
+<img width="1360" height="707" alt="Screenshot 2025-08-05 135233" src="https://github.com/user-attachments/assets/0072a739-c0fc-4ae8-b48b-86b8f3e00f9b" />
+
+
+# Insights Derived
+
+> The West Region appears to have the highest sales.
+
+> Consumer Segment contributes the most to total sales.
+
+> Sales have shown an upward trend from 2014 to 2017.
+
+> Profit margins vary significantly by sub-category and region.
