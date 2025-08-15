@@ -18,25 +18,25 @@ The Power BI report includes the following key visual components:
 
 # Dataset Description
 
-The dataset used is the classic Superstore Dataset, commonly used for data visualization projects. It includes:
+> The dataset used is the classic Superstore Dataset, commonly used for data visualization projects. It includes:
 
-Order information (Order ID, Date, Segment, Region)
+> Order information (Order ID, Date, Segment, Region)
 
-Customer demographics
+> Customer demographics
 
-Product details
+> Product details
 
-Sales, Profit, and Quantity metrics
+> Sales, Profit, and Quantity metrics
 
 # 🛠️ Tools Used
 
-Data cleaning in excel
+> Data cleaning in excel
 
-Power BI Desktop
+> Power BI Desktop
 
-DAX (Data Analysis Expressions)
+> DAX (Data Analysis Expressions)
 
-Data Transformation (Power Query Editor)
+> Data Transformation (Power Query Editor)
 
 <img width="1360" height="707" alt="Screenshot 2025-08-05 135233" src="https://github.com/user-attachments/assets/0072a739-c0fc-4ae8-b48b-86b8f3e00f9b" />
 
@@ -50,3 +50,6 @@ Data Transformation (Power Query Editor)
 > Sales have shown an upward trend from 2014 to 2017.
 
 > Profit margins vary significantly by sub-category and region.
+
+# AUTHOR
+ROHIT GILLELA
