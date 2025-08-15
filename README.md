@@ -28,6 +28,21 @@ The Power BI report includes the following key visual components:
 
 > Sales, Profit, and Quantity metrics
 
+
+# Dashboard Features:
+
+> KPI Cards displaying Total Quantity, Total Profits, and Total Sales.
+
+> Pie and Donut Charts for regional and segment sales breakdown.
+
+> Map Visualization showing state-wise sales distribution.
+
+> Bar Charts showing:
+
+   > Sales by sub-category and region.
+
+   > Sales trends by order year.
+
 # 🛠️ Tools Used
 
 > Data cleaning in excel
